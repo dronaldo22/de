@@ -1,0 +1,588 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding-top: 33px;
+    padding-bottom: 83px;
+    background-image: url("img/header-bg1.png");
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.logo{
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+header a{
+    color: white;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    outline: none;
+    text-align: left;
+}
+.menu li{
+    margin-right: 35px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menu2{
+    display: flex;
+}
+.menu2 li a{
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    outline: none;
+    text-align: left;
+}
+.menu2 li{
+    margin-right: 35px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.mn{
+    margin-left: 18px;
+}
+.text{
+    margin-top: 160px;
+}
+.text h1{
+    font-size: 96px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 150px;
+
+}
+.text h5{
+    font-size: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 480px;
+}
+.text h4{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+    margin: -160px 100px 0 0;
+}
+.rectangle1{
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-left: 495px;
+    margin-top: -70px;
+}
+.button1 {
+    position: absolute;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white !important;
+    padding: 30px 90px;
+    border-radius: 5px;
+    background: #E8C300;
+    margin-left: 230px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    outline: none;
+}
+.button2{
+    position: absolute;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white !important;
+    padding: 30px 100px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 560px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    outline: none;
+}
+.button1:hover {
+    background-color: #FFD600;
+    color: #FFD600;
+}
+.button2:hover{
+    background-color: #CBCBCB;
+    color: #CBCBCB;
+}
+.butdown{
+    margin-left: 490px;
+}
+.ellipse_out{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.ellipse_down{
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    background: #FFFFFF;
+    border-radius: 50%;
+
+}
+.ellipse_down:hover{
+    background: #D1D1D1;
+}
+.arrow{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+.social {
+    width: 100px;
+    float: right;
+    margin-top: -190px;
+}
+.face{
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.face:hover{
+
+}
+/*сделали хэдэр*/
+#about_us{
+    margin-top: 100px;
+}
+.about_text h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 230px;
+    margin-top: 200px;
+}
+.rectangle2{
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-left: 270px;
+}
+.about_text h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.about_text h6{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+.photo{
+    margin-left: 590px;
+    margin-top: -340px;
+}
+/*about us*/
+#our_team{
+    margin-top: 100px;
+    background: url("img/specialty's-bg(1).png") no-repeat center top / cover;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.title h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.our_text{
+    margin-top: -100px;
+}
+.our_text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-top: 300px;
+    width: 300px;
+    margin-left: 716px;
+}
+.rectangle3{
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-left: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.our_text h5{
+    width: 580px;
+    margin-left: 530px;
+    color: white;
+    text-align: center;
+}
+.our_text h6{
+    width: 580px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 530px;
+}
+
+.our_photo{
+    margin-left: -300px;
+    margin-top: -400px;
+}
+/*our team*/
+#book{
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.title h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    width: 250px;
+    margin-left: 175px;
+}
+.rectangle4{
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+}
+.name,.email,.phone,.people,.date,.time{
+    outline: none !important;
+    border: none !important;
+    height: 60px;
+    width: 277px;
+    border-radius: 5px;
+    background: #E5E5E5;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.reserve{
+    width: 580px;
+}
+.photo_book{
+    margin-left: 600px;
+    margin-top: -435px;
+}
+.button3{
+    width: 564px;
+    height: 60px;
+    border-radius: 5px;
+    background: #E8C300;
+    outline: none !important;
+    color: white !important;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: -140px;
+}
+.button3:hover {
+    background-color: #FFD600;
+    color: #FFD600;
+    outline: none;
+}
+.signature h6{
+    margin-top: 100px;
+    text-align: center;
+}
+/*BOOK*/
+#specialties{
+    margin-top: 100px;
+    background: url("img/specialty's-bg(2).png") no-repeat center top / cover;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.title h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.specialties_text{
+    margin-top: -100px;
+}
+.slide h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-top: 300px;
+    width: 400px;
+    margin-left: 650px;
+}
+.rectangle3{
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-left: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.specialties_text h5{
+    width: 580px;
+    margin-left: 530px;
+    color: white;
+    text-align: center;
+}
+.specialties_text h6{
+    width: 580px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 530px;
+}
+
+.specialties_photo{
+    margin-left: -300px;
+    margin-top: -400px;
+}
+.slick-slide:focus {
+    outline: none;
+}
+/*слайдер*/
+#menu{
+    margin-top: 100px;
+}
+.title1 h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+}
+.title1 h5 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.rectangle5{
+    width: 60px;
+    height: 5px;
+    background: #E8C300;
+    border-radius: 50px;
+    margin-left: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#SOUPE,#PIZZA,#PASTA,#DESERT,#DRINKS {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    background: none;
+    border-right: 1px solid #333333;
+    margin-bottom: 50px;
+    font-weight: bold;
+
+}
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+#eat{
+    margin-left: 380px;
+}
+#DRINKS{
+    border-right: none;
+}
+.eat {
+    text-align: center;
+}
+.text6 {
+    width: 1200px;
+    display: flex;
+}
+.text6 h5 {
+    font-size: 16px;
+    margin-right: 97px;
+}
+.text7 {
+    width: 1200px;
+    display: flex;
+}
+.text7 h6 {
+    font-size: 14px;
+    margin-right: 133px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+/*MENU*/
+#private_evans {
+    margin-top: 100px;
+    background: url("img/specialty's-bg(2).png") no-repeat center top / cover;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.title2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.image {
+    width: 300px;
+}
+.private_evans_photo1 {
+    margin-left: -170px;
+}
+.private_evans_photo2 {
+    margin-left: 550px;
+    margin-top: -573px;
+}
+.niz h6 {
+    margin-right: 0;
+    margin-left: 250px;
+    font-weight: 100;
+    color: white;
+}
+.photochki {
+    float: left;
+    outline: none;
+    display: flex;
+    margin-bottom: 100px;
+}
+/*фото секция*/
+.title3 {
+    font-family: 'Open Sans', sans-serif;
+}
+.title3 h1 {
+    text-align: center;
+    font-size: 36px;
+}
+.title3 h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.name1,.email1,.phone1{
+    outline: none !important;
+    border: none !important;
+    height: 60px;
+    width: 350px;
+    border-radius: 5px;
+    background: #E5E5E5;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.message1 {
+    outline: none !important;
+    border: none !important;
+    height: 160px;
+    width: 1080px;
+    border-radius: 5px;
+    background: #E5E5E5;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contacts {
+    margin-top: 30px;
+}
+.contacts input[type="text"]{
+    padding-left: 20px;
+}
+.button4{
+    width: 500px;
+    height: 59px;
+    border-radius: 5px;
+    background: #E8C300;
+    outline: none !important;
+    color: white !important;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    float: right;
+    margin-right: 33px;
+}
+.button4:hover {
+    background-color: #FFD600;
+    color: #FFD600;
+    outline: none;
+}
+.contact_text h6 {
+    float: left;
+    display: block;
+    width: 155px;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.street{
+    margin-top: 18px;
+    float: left;
+    margin-right: 8px;
+}
+.tel{
+    margin-top: 18px;
+    margin-left: -390px;
+}
+.mail{
+    margin-top: 18px;
+    margin-left: 175px;
+}
+.mail1{
+    margin-left: 20px;
+}
+.map {
+    margin-top: 100px;
+    width: 100%;
+}
+/*footer*/
+footer {
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    margin-top: -7px;
+}
+.footer_text h6 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 40px;
+}

@@ -93,15 +93,3 @@ $(document).ready(function(){
 });
 // vdfvf
 
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
-// vdfvf
